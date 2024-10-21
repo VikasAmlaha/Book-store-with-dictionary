@@ -1,0 +1,25 @@
+books = {
+
+    "book1" : {
+        "author": "Victor E Frankl",
+        "name": "Men's search for meaning",
+        "genre": "Autobiography"
+    },
+
+    "book2" : {
+        "author": "Yuval Noah Harari",
+        "name": "Sapiens",
+        "genre": "Non-fiction"
+    },
+
+    "book3" : {
+        "author": "Gen. KJS Dhillon",
+        "name": "Kitne Ghazi Aaye,Kitne Ghazi gaye",
+        "genre": "Autobiography"
+    }
+    
+}
+for x, obj in books.items():
+    print(x)
+    for y in obj:
+        print(y+":", obj[y])
